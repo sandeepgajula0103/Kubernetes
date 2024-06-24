@@ -551,3 +551,81 @@ kubectl get pod
 kubectl apply -f mysql-deployment.yaml 
 kubectl get pod 
 exit
+kubetl get pod
+kubectl get pod
+kubectl delete deployment my-db
+kubectl get pod
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl get deployment
+kubectl delete deployment nginx-deployment
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+exit
+ls
+vim nginx-deployment.yaml 
+cat my-deployment.yaml 
+kubectl get pod
+kubectl get deployment
+kubectl delete deploymentr my-db
+kubectl delete deployment my-db
+kubectl get pod
+kubectl apply -f mysql-deployment.yaml 
+kubectl get pod
+kubectl apply -f mysql-deployment.yaml 
+kubectl get pod
+kubectl logs my-db-6c49d9768f-qc96m
+kubectl get pod
+ls
+git init
+echo "# Kubernetes" >> README.md
+git add README.md
+git commit -m "first commit"
+git config --global user.email "sandeepgajula0103"
+git config --global user.email "sandeepgajula0103@gmail.com"
+git config --global user.name "sandeepgajula0103"
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:sandeepgajula0103/Kubernetes.git
+git push -u origin master
+ssh -vT git@github.com
+sudo ssh -vT git@github.com
+ssh -T sandeepgajula@github.com
+sudo ssh -T sandeepgajula@github.com
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+ssh key-gen
+cd .ssh/
+ls
+cat authorized_keys 
+cd
+ssh-add -l
+ssh-add
+ssh key-gen
+ssh-keygen
+cd .ssh/
+ls
+cat id_rsa.pub 
+cd ..
+git push -u origin master
+git add .
+git commit -m "kubernetes files"
+git push -u origin master
+vim .gitignore
+git push -u origin master

@@ -1,0 +1,7 @@
+#ignore files
+
+id_rsa.pub
+.ssh/known_hosts
+.viminfo
+
+

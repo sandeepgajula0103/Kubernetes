@@ -11,12 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q!
-|2,0,1719256220,,"q!"
-:!
-|2,0,1719255360,,"!"
 :wq
-|2,0,1718657572,,"wq"
+|2,0,1719265928,,"wq"
+:q!
+|2,0,1719265749,,"q!"
+:!
+|2,0,1719259780,,"!"
 :Wq
 |2,0,1718657265,,"Wq"
 :'<,'>:wq
@@ -34,330 +34,427 @@
 
 # Registers:
 ""1	LINE	0
-	apiVersion: apps/v1
-|3,1,1,1,1,0,1718657557,"apiVersion: apps/v1"
+	.kube/cache/http/d68e123438fd1045a6bc26b1d5ecc860a41195d4e622bde5d85c44bb289c824: 
+|3,1,1,1,1,0,1719265884,".kube/cache/http/d68e123438fd1045a6bc26b1d5ecc860a41195d4e622bde5d85c44bb289c824: "
 "2	LINE	0
-	kind: Deployment
-|3,0,2,1,1,0,1718657557,"kind: Deployment"
+		modified:   nginx-deployment.yaml
+|3,0,2,1,1,0,1719265881,"	modified:   nginx-deployment.yaml"
 "3	LINE	0
-	metadata:
-|3,0,3,1,1,0,1718657557,"metadata:"
+	modified:   .bash_history
+|3,0,3,1,1,0,1719265839,"modified:   .bash_history"
 "4	LINE	0
-	  name: my-db
-|3,0,4,1,1,0,1718657557,"  name: my-db"
+	apiVersion: apps/v1
+|3,0,4,1,1,0,1719265771,"apiVersion: apps/v1"
 "5	LINE	0
-	  labels:
-|3,0,5,1,1,0,1718657557,"  labels:"
+	kind: Deployment
+|3,0,5,1,1,0,1719265771,"kind: Deployment"
 "6	LINE	0
-	    app: my-db
-|3,0,6,1,1,0,1718657556,"    app: my-db"
+	metadata:
+|3,0,6,1,1,0,1719265771,"metadata:"
 "7	LINE	0
-	spec:
-|3,0,7,1,1,0,1718657556,"spec:"
+	  name: nginx
+|3,0,7,1,1,0,1719265771,"  name: nginx"
 "8	LINE	0
-	  replicas: 1
-|3,0,8,1,1,0,1718657556,"  replicas: 1"
+	  labels:
+|3,0,8,1,1,0,1719265771,"  labels:"
 "9	LINE	0
-	  selector:
-|3,0,9,1,1,0,1718657556,"  selector:"
+	    app: nginx
+|3,0,9,1,1,0,1719265771,"    app: nginx"
 "-	CHAR	0
 	:
 |3,0,36,0,1,0,1718654320,":"
 
 # File marks:
-'0  29  2  ~/nginx-deployment.yaml
-|4,48,29,2,1719256220,"~/nginx-deployment.yaml"
-'1  29  34  ~/mysql-deployment.yaml
-|4,49,29,34,1718657572,"~/mysql-deployment.yaml"
-'2  1  26  ~/mysql-deployment.yaml
-|4,50,1,26,1718657267,"~/mysql-deployment.yaml"
-'3  19  26  ~/mysql-deployment.yaml
-|4,51,19,26,1718657267,"~/mysql-deployment.yaml"
-'4  1  9  ~/mysql-deployment.yaml
-|4,52,1,9,1718657063,"~/mysql-deployment.yaml"
-'5  1  9  ~/mysql-deployment.yaml
-|4,53,1,9,1718657063,"~/mysql-deployment.yaml"
-'6  24  9  ~/mysql-deployment.yaml
-|4,54,24,9,1718657063,"~/mysql-deployment.yaml"
-'7  24  9  ~/mysql-deployment.yaml
-|4,55,24,9,1718657063,"~/mysql-deployment.yaml"
-'8  1  9  ~/mysql-deployment.yaml
-|4,56,1,9,1718656904,"~/mysql-deployment.yaml"
-'9  1  9  ~/mysql-deployment.yaml
-|4,57,1,9,1718656904,"~/mysql-deployment.yaml"
+'0  1  12  ~/.gitignore
+|4,48,1,12,1719265928,"~/.gitignore"
+'1  44  0  ~/nginx-deployment.yaml
+|4,49,44,0,1719265788,"~/nginx-deployment.yaml"
+'2  1  1  ~/my-deployment.yaml
+|4,50,1,1,1719265749,"~/my-deployment.yaml"
+'3  9  3  ~/myapp-pv.yaml
+|4,51,9,3,1719265723,"~/myapp-pv.yaml"
+'4  1  0  ~/nginx-deployment.yaml
+|4,52,1,0,1719265658,"~/nginx-deployment.yaml"
+'5  44  0  ~/nginx-deployment.yaml
+|4,53,44,0,1719265658,"~/nginx-deployment.yaml"
+'6  1  16  ~/nginx-deployment.yaml
+|4,54,1,16,1719265620,"~/nginx-deployment.yaml"
+'7  1  16  ~/nginx-deployment.yaml
+|4,55,1,16,1719265620,"~/nginx-deployment.yaml"
+'8  15  16  ~/nginx-deployment.yaml
+|4,56,15,16,1719265620,"~/nginx-deployment.yaml"
+'9  15  16  ~/nginx-deployment.yaml
+|4,57,15,16,1719265620,"~/nginx-deployment.yaml"
 
 # Jumplist (newest first):
--'  29  2  ~/nginx-deployment.yaml
-|4,39,29,2,1719256220,"~/nginx-deployment.yaml"
--'  29  34  ~/mysql-deployment.yaml
-|4,39,29,34,1718657572,"~/mysql-deployment.yaml"
--'  29  34  ~/mysql-deployment.yaml
-|4,39,29,34,1718657572,"~/mysql-deployment.yaml"
--'  1  26  ~/mysql-deployment.yaml
-|4,39,1,26,1718657367,"~/mysql-deployment.yaml"
--'  1  26  ~/mysql-deployment.yaml
-|4,39,1,26,1718657367,"~/mysql-deployment.yaml"
--'  19  26  ~/mysql-deployment.yaml
-|4,39,19,26,1718657267,"~/mysql-deployment.yaml"
--'  19  26  ~/mysql-deployment.yaml
-|4,39,19,26,1718657267,"~/mysql-deployment.yaml"
--'  24  9  ~/mysql-deployment.yaml
-|4,39,24,9,1718657251,"~/mysql-deployment.yaml"
--'  24  9  ~/mysql-deployment.yaml
-|4,39,24,9,1718657251,"~/mysql-deployment.yaml"
--'  24  9  ~/mysql-deployment.yaml
-|4,39,24,9,1718657063,"~/mysql-deployment.yaml"
--'  24  9  ~/mysql-deployment.yaml
-|4,39,24,9,1718657063,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656918,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656918,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656918,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656918,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656904,"~/mysql-deployment.yaml"
--'  20  9  ~/mysql-deployment.yaml
-|4,39,20,9,1718656904,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656765,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656765,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656765,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656765,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656729,"~/mysql-deployment.yaml"
--'  19  8  ~/mysql-deployment.yaml
-|4,39,19,8,1718656729,"~/mysql-deployment.yaml"
--'  19  3  ~/mysql-deployment.yaml
-|4,39,19,3,1718656570,"~/mysql-deployment.yaml"
--'  19  3  ~/mysql-deployment.yaml
-|4,39,19,3,1718656570,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656425,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656054,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656054,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656008,"~/mysql-deployment.yaml"
--'  31  30  ~/mysql-deployment.yaml
-|4,39,31,30,1718656008,"~/mysql-deployment.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
--'  7  11  ~/myapp-pvc.yaml
-|4,39,7,11,1718655992,"~/myapp-pvc.yaml"
+-'  1  12  ~/.gitignore
+|4,39,1,12,1719265928,"~/.gitignore"
+-'  4  79  ~/.gitignore
+|4,39,4,79,1719265858,"~/.gitignore"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265788,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265788,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1719265774,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1719265774,"~/nginx-deployment.yaml"
+-'  1  1  ~/my-deployment.yaml
+|4,39,1,1,1719265749,"~/my-deployment.yaml"
+-'  1  1  ~/my-deployment.yaml
+|4,39,1,1,1719265749,"~/my-deployment.yaml"
+-'  1  1  ~/my-deployment.yaml
+|4,39,1,1,1719265749,"~/my-deployment.yaml"
+-'  1  1  ~/my-deployment.yaml
+|4,39,1,1,1719265749,"~/my-deployment.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  9  3  ~/myapp-pv.yaml
+|4,39,9,3,1719265723,"~/myapp-pv.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  44  0  ~/nginx-deployment.yaml
+|4,39,44,0,1719265658,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  19  26  ~/nginx-deployment.yaml
+|4,39,19,26,1719265656,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265641,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  15  16  ~/nginx-deployment.yaml
+|4,39,15,16,1719265620,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  6  13  ~/nginx-deployment.yaml
+|4,39,6,13,1719265607,"~/nginx-deployment.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
+-'  7  8  ~/nginx-service.yaml
+|4,39,7,8,1719265604,"~/nginx-service.yaml"
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	*	1719265927	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	10
+	+	6	0
+	+	4	81
+	+	4	0
+	+	4	81
+	+	4	82
+	+	4	0
+	+	4	16
+	+	6	0
+	+	4	0
+	+	1	12
+
 > ~/nginx-deployment.yaml
-	*	1719256219	0
-	"	29	2
-	^	27	10
-	.	29	0
-	+	21	27
-	+	23	27
-	+	24	82
-	+	47	22
-	+	47	0
-	+	47	20
-	+	47	28
-	+	47	71
-	+	47	10
-	+	60	0
-	+	54	19
-	+	59	22
-	+	56	13
-	+	59	34
-	+	57	17
-	+	24	28
-	+	25	13
-	+	25	105
-	+	25	33
-	+	25	56
-	+	45	20
-	+	46	14
-	+	43	36
-	+	36	32
-	+	39	45
-	+	40	19
-	+	43	34
-	+	39	27
-	+	25	28
-	+	25	13
-	+	30	21
-	+	25	13
-	+	26	85
-	+	25	0
-	+	24	26
-	+	26	23
-	+	27	33
-	+	28	56
-	+	29	42
-	+	29	20
-	+	30	9
-	+	27	11
-	+	26	23
-	+	28	10
-	+	29	10
-	+	29	19
-	+	26	22
-	+	31	7
-	+	32	7
-	+	33	10
-	+	34	11
-	+	35	13
-	+	36	7
-	+	37	9
-	+	38	11
-	+	39	13
-	+	40	7
-	+	41	10
-	+	42	11
-	+	43	13
-	+	26	8
-	+	30	9
-	+	29	0
+	*	1719265786	0
+	"	44	0
+	^	44	0
+	.	43	20
+	+	1	32
+	+	1	45
+	+	1	19
+	+	1	34
+	+	1	27
+	+	1	28
+	+	1	13
+	+	1	21
+	+	1	13
+	+	1	85
+	+	1	0
+	+	1	26
+	+	1	23
+	+	1	33
+	+	1	56
+	+	1	42
+	+	1	20
+	+	1	9
+	+	1	11
+	+	1	23
+	+	1	10
+	+	1	19
+	+	1	22
+	+	1	7
+	+	1	10
+	+	1	11
+	+	1	13
+	+	1	7
+	+	1	9
+	+	1	11
+	+	1	13
+	+	1	7
+	+	1	10
+	+	1	11
+	+	1	13
+	+	1	8
+	+	1	9
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	9
+	+	1	11
+	+	1	24
+	+	1	28
+	+	1	31
+	+	1	22
+	+	1	69
+	+	1	0
+	+	1	15
+	+	1	20
+	+	1	21
+	+	1	16
+	+	1	0
+	+	1	14
+	+	1	19
+	+	1	23
+	+	1	12
+	+	1	24
+	+	1	9
+	+	1	11
+	+	1	0
+	+	1	28
+	+	1	27
+	+	1	3
+	+	1	22
+	+	1	0
+	+	1	34
+	+	1	0
+	+	1	65
+	+	1	0
+	+	1	28
+	+	1	0
+	+	1	6
+	+	1	8
+	+	1	10
+	+	1	13
+	+	1	14
+	+	1	16
+	+	1	0
+	+	1	8
+	+	1	29
+	+	1	0
+	+	1	6
+	+	1	8
+	+	1	33
+	+	1	0
+	+	1	19
+	+	1	20
+	+	1	12
+	+	1	13
+	+	1	15
+	+	1	17
+	+	1	18
+	+	1	24
+	+	1	16
+	+	1	26
+	+	1	19
+	+	43	20
+
+> ~/my-deployment.yaml
+	*	1719265745	0
+	"	1	1
+	.	1	1
+	+	1	1
+
+> ~/myapp-pv.yaml
+	*	1719265722	0
+	"	9	3
+	^	9	4
+	.	9	4
+	+	1	9
+	+	1	14
+	+	3	9
+	+	4	16
+	+	7	22
+	+	8	11
+	+	9	19
+	+	10	14
+	+	11	16
+	+	7	4
+	+	9	4
+
+> ~/nginx-service.yaml
+	*	1719265603	0
+	"	7	8
+	.	15	0
+	+	14	20
+	+	10	7
+	+	6	8
+	+	5	9
+	+	6	0
+	+	7	13
+	+	6	9
+	+	7	14
+	+	5	6
+	+	9	14
+	+	15	6
+	+	9	11
+	+	15	15
+	+	9	19
+	+	15	20
+	+	9	0
+	+	15	0
 
 > ~/mysql-deployment.yaml
 	*	1718657571	0
@@ -396,23 +493,6 @@
 	+	5	5
 	+	10	16
 	+	7	11
-
-> ~/myapp-pv.yaml
-	*	1718653891	0
-	"	9	3
-	^	9	4
-	.	9	4
-	+	1	9
-	+	1	14
-	+	3	9
-	+	4	16
-	+	7	22
-	+	8	11
-	+	9	19
-	+	10	14
-	+	11	16
-	+	7	4
-	+	9	4
 
 > ~/.nginx-deployment.yaml.swp
 	*	1718300720	0
@@ -550,37 +630,9 @@
 	.	34	22
 	+	34	22
 
-> ~/nginx-service.yaml
-	*	1717035093	0
-	"	7	8
-	.	15	0
-	+	14	20
-	+	10	7
-	+	6	8
-	+	5	9
-	+	6	0
-	+	7	13
-	+	6	9
-	+	7	14
-	+	5	6
-	+	9	14
-	+	15	6
-	+	9	11
-	+	15	15
-	+	9	19
-	+	15	20
-	+	9	0
-	+	15	0
-
 > ~/my-pod.yaml
 	*	1717034341	0
 	"	1	0
-
-> ~/my-deployment.yaml
-	*	1716404186	0
-	"	1	1
-	.	1	1
-	+	1	1
 
 > /tmp/kubectl-edit-2074888453.yaml
 	*	1714340803	0

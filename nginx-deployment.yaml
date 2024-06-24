@@ -1,45 +1,44 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: my-app
   labels:
-    app: nginx
+    app: my-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: my-app
   template:
     metadata:
       labels:
-        app: nginx
+        app: my-app
     spec:
       containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
+      - name: my-app
+        image: busybox:1.28
+        command: ['sh', '-c'] 
+        args: 
+        - while true; do 
+            echo "$(date) INFO some app data" >> /var/log/myapp.log;
+            sleep 5;
+          done
+  
+        volumeMounts:
+        - name: log
+          mountPath: /var/log  
+ 
       - name: log-sidecar
         image: busybox:1.28
-        command: ["sh","-c"]
+        command: ['sh', '-c'] 
         args:
-        - while true; do 
-            echo sync app logs;
-            printenv POD_NAME POD_SERVICE_ACCOUNT POD_IP;
-            sleep 20; 
-          done;                    
-        env:
-        - name: POD_NAME
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.name
-        - name: POD_SERVICE_ACCOUNT
-          valueFrom:
-            fieldRef:
-              fieldPath: spec.serviceAccountName
-        - name: POD_IP
-          valueFrom:
-            fieldRef:
-              fieldPath: status.podIP
+        - tail -f /var/log/myapp.log 
 
+        volumeMounts:
+        - name: log
+          mountPath: /var/log
+  
+      volumes: 
+      - name: log
+        emptyDir: {}
 
