@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: null
+  name: my-app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /      
+spec:
+  rules:
+  - host: ingress-lb-1143006096.us-east-1.elb.amazonaws.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginx-service
+            port:
+              number: 8080
+        path: /my-app
+        pathType: Exact
