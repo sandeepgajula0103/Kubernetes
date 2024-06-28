@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config-file
+data:
+  mysql.conf: |
+    [mysqid]
+    port=3306
+    socket=/tmp/mysql.sock
+    key_buffer_size=16m
+    max_allowed_packet=128m

@@ -629,3 +629,103 @@ git commit -m "kubernetes files"
 git push -u origin master
 vim .gitignore
 git push -u origin master
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+kubectl get pod
+vim nginx-deployment.yaml 
+kubectl log my-app-6b86b8bb6d-zrwl2 -c log-sidecar
+kubectl logs my-app-6b86b8bb6d-zrwl2 -c log-sidecar
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+vim nginx-service.yaml 
+vim nginx-deployment.yaml 
+vim nginx-service.yaml 
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+kubectl get pod
+vim nginx-deployment.yaml 
+kubectl apply -f nginx-deployment.yaml 
+kubectl get pod
+kubectl delete deployment nginx
+kubectl get deployment
+ls
+vim myapp-pv.yaml 
+vim my-deployment.yaml 
+vim nginx-deployment.yaml 
+git status
+vim .gitignore 
+git add .
+git commit -m "emptyDir"
+git push origin -u master
+exit
+mkdir external-config
+cd external-config/
+vim my-configMap.yaml
+vim my-secret.yaml
+cd
+echo -n "myuser" | base64
+echo -n "mypwd" | base64
+vim my-secret.yaml
+cd external-config/
+vim my-secret.yaml 
+kubectl apply -f .
+vim my-configMap.yaml 
+kubectl apply -f .
+cd ..
+vim nginx-deployment.yaml 
+cd external-config/
+vim my-deployment.yaml
+vim my-configMap.yaml 
+vim my-secret.yaml 
+vim my-deployment.yaml 
+kubectl apply -f my-deployment.yaml 
+vim my-deployment.yaml 
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectl edit deployment my-app-6f5d96479-mp5nw
+kubectl get pod
+kubectl logs my-app-6f5d96479-mp5nw
+kubectl get pod
+vim my-deployment.yaml 
+kubetl get deployment
+kubetl get deployments
+kubectl get deployment
+kubectl get pod
+kubectl edit pod my-app-6f5d96479-mp5nw
+vim my-configMap.yaml 
+vim my-deployment.yaml 
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectl logs my-app-6f5d96479-mp5nw
+kubectl get pod
+kubectl edit pod my-app-56fbd47c45-8f575
+kubectl get deployment
+kubectl delete pod my-app-56fbd47c45-8f575
+kubectl get deployment
+kubectl get pod
+kubectl delete deployment my-app
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectl edit pod my-app-56fbd47c45-b65bf
+vim my-deployment.yaml 
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectl logs my-app-6679b9c566-zgxmn
+kubectl get pod
+kubectl edit pod my-app-6679b9c566-zgxmn
+kubectl get pod
+kubectl logs my-app-6679b9c566-zgxmn
+kubectl get pod
+vim my-deployment.yaml 
+kubectl delete deployment my-app
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectl logs my-app-5b76967f76-nft2n
+vim my-deployment.yaml 
+kubectl apply -f my-deployment.yaml 
+kubectl get pod
+kubectk logs my-app-86dd95b784-47ffh
+kubectl logs my-app-86dd95b784-47ffh
+exit
