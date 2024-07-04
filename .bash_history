@@ -729,3 +729,73 @@ kubectl get pod
 kubectk logs my-app-86dd95b784-47ffh
 kubectl logs my-app-86dd95b784-47ffh
 exit
+cd external-config/
+vim my-configmap-file.yaml
+vim my-secret-file.yaml
+ls
+vim my-secret-file.yaml
+ls
+cat my-deployment.yaml 
+vim myapp-deployment-file.yaml
+ls
+kubectl apply -f my-configMap.yaml
+kubectl apply -f my-configmap-file.yaml
+kubectl apply -f my-secret-file.yaml
+kubectl apply -f myapp-deployment-file.yaml
+vim myapp-deployment-file.yaml
+kubectl apply -f myapp-deployment-file.yaml
+vim myapp-deployment-file.yaml
+vim my-secret
+vim my-secret-file.yaml 
+vim myapp-deployment-file.yaml
+kubectl apply -f myapp-deployment-file.yaml
+kubectl get pod
+vim myapp-deployment-file.yaml
+vim my-secret-file.yaml 
+kubectl apply -f myapp-deployment-file.yaml
+vim myapp-deployment-file.yaml
+kubectl apply -f myapp-deployment-file.yaml
+kubectl get pod
+kubectl logs my-db-7d55cf454b-wd55m
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+kubectl logs my-db-7d55cf454b-wd55m
+kubectl rollout restart deployment/my-db
+kubectl get pod
+kubectl logs my-db-598f955858-82kkg
+vim my-secret-file.yaml 
+kubectl apply -f my-secret-file.yaml 
+kubectl rollout restart deployment/my-db
+kubectl get pod
+kubectl logs my-db-7cb7797c96-pn2f8
+vim myapp-deployment-file.yaml
+kubectl apply -f myapp-deployment-file.yaml 
+kubectl logs my-db-7cb7797c96-pn2f8
+kubectl get pods
+kubectl edit my-db-7cb7797c96-pn2f8 -1
+kubectl edit my-db-7cb7797c96-pn2f8 -0
+kubectl edit my-db-7cb7797c96-pn2f8 -o
+kubectl edit my-db-7cb7797c96-pn2f8 -wide
+kubectl edit my-db-7cb7797c96-pn2f8 
+kubectl edit pod my-db-7cb7797c96-pn2f8 
+kubectl get pods
+kubectl delete deployment my-db
+kubectl apply -f myapp-deployment-file.yaml 
+kubectl get pods
+kubectl logs my-db-7d55cf454b-w4bqd
+cd
+ls
+git add .
+git commit -m "config and secret"
+git push origin -u master
+git remote --help
+git remote add origin git@github.com:sandeepgajula0103/Kubernetes.git
+git push origin -u master
