@@ -160,10 +160,13 @@ sudo apt-mark hold kubelet kubeadm kubectl
 **Connect to cluster(kubeconfig and kubectl)**
 
 create a folder 
+
 mkdir -p ~/.kube
 
 copy admin.conf file to ~/.kube/config folder
+
 sudo cp -i /etc/kubernetes/admin.conf ~/.kube/config
 
 make current user and current group to admin.conf file
+
 sudo chown $(id -u):$(id -g) ~/.kube/config
