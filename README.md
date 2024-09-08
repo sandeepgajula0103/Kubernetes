@@ -36,9 +36,9 @@ Check extended logs of kubelet service
 **journalctl -u kubelet**
 
 Access cluster as admin
-**mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config**
+**mkdir -p $HOME/.kube**
+**sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config**
+**sudo chown $(id -u):$(id -g) $HOME/.kube/config**
 
 Kubectl commands
 get node information
