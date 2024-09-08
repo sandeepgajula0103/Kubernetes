@@ -17,10 +17,10 @@ get priavate ips of each node and add this to each server
 we can now use these names instead of typing the IPs, when nodes talk to each other. After that, assign a hostname to each of these servers.
 on master server
 
-**sudo hostnamectl set-hostname master **
+**sudo hostnamectl set-hostname master**
 
 on worker1 server
-**sudo hostnamectl set-hostname worker1 **
+**sudo hostnamectl set-hostname worker1**
 
 on worker2 server
 **sudo hostnamectl set-hostname worker2**
@@ -69,16 +69,15 @@ Install the plugin
 
 cilium install 
 
-
 Link to the Cilium installation guide
 
 check cilium status
 
 cilium status
 **kubectl -n kube-system exec cilium-2hq5z -- cilium-dbg status**
-cilium connectivity tes
+cilium connectivity test
 
-Join worker nodes
+**Join worker nodes**
 
 create and execute script
 
@@ -113,8 +112,8 @@ EOF
 
 Verify that net.ipv4.ip_forward is set to 1 with:
 
-**sysctl net.ipv4.ip_forward
-**
+**sysctl net.ipv4.ip_forward**
+
 step-2
 Installing Containerd
 
