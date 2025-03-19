@@ -4,15 +4,15 @@ Configure Infrastructure
 
 **sudo swapoff -a**
 
-set host names of nodes
+ set host names of nodes
 
 **sudo vim /etc/hosts**
 
-get priavate ips of each node and add this to each server
-
-45.14.48.178 master
-45.14.48.179 worker1
-45.14.48.180 worker2
+  get priavate ips of each node and add this to each server
+  
+  45.14.48.178 master
+  45.14.48.179 worker1
+  45.14.48.180 worker2
 
 we can now use these names instead of typing the IPs, when nodes talk to each other. After that, assign a hostname to each of these servers.
 on master server
